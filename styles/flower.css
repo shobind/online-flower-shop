@@ -25,7 +25,7 @@ header {
     height: 850px;
     background: rgba(229, 84, 115, 0.10);
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
     display: flex;
 
 }
@@ -60,4 +60,21 @@ header {
 
 .banner-image {
     margin-bottom: 0;
+    justify-content: space-around;
+}
+main{
+    width: 1920px;
+    margin: 0 auto;
+}
+.featured-flower{
+    padding: 130px;
+    border: 0;
+    text-align: center;
+}
+.section-title{
+    text-align: center;
+}
+.section-description{
+    text-align: center;
+    color: rgba(39, 39, 39, 0.60);
 }
