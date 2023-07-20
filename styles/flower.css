@@ -192,3 +192,78 @@ main {
     font-weight: 400;
 
 }
+
+.instagram {
+    text-align: center;
+    justify-content: center;
+    margin-top: 125px;
+}
+
+.title {
+    color: #272727;
+    text-align: center;
+    font-family: Lato;
+    font-size: 40px;
+    font-weight: 800;
+
+}
+
+.title-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 25px;
+    justify-content: center;
+    margin: auto;
+}
+
+.last-image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    gap: 40px;
+}
+
+.final-main {
+    justify-content: center;
+    background-image: url(Rectangle\ 9.png);
+    background-repeat: no-repeat;
+    width: 1440px;
+    height: 449px;
+    border-radius: 8px;
+    align-items: center;
+    margin: auto;
+}
+
+.last-title {
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding: 122px 300px 16px 300px;
+
+}
+
+.last-description {
+    color: rgba(39, 39, 39, 0.60);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+}
+
+.email {
+    width: 700px;
+    height: 64px;
+    border-radius: 8px;
+    background: #FFF;
+    margin-right: 16px;
+}
