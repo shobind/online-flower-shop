@@ -1,7 +1,7 @@
 body {
     font-family: 'Lato', sans-serif;
     font-family: 'Open Sans', sans-serif;
-    margin: 0;
+    margin: auto;
 }
 
 
@@ -10,6 +10,7 @@ body {
     padding: 20px 43px;
 
     font-size: 20px;
+    justify-content: center;
 
     font-weight: 700;
     border-radius: 8px;
@@ -39,6 +40,7 @@ header {
     font-size: 80px;
 
     font-weight: 800;
+    justify-content: center;
 
 
 
@@ -53,14 +55,14 @@ header {
 
     font-weight: 400;
 
-    text-align: justify;
+    align-items: center;
     justify-content: space-between;
 
 }
 
 .banner-image {
-    margin-bottom: 0;
     justify-content: space-around;
+    padding-bottom: 0px;
 }
 
 main {
@@ -166,9 +168,10 @@ main {
     border-radius: 8px;
     background: rgba(229, 84, 115, 0.05);
     align-items: center;
-    justify-content: space-around;
-    margin-top: 125px;
+    justify-content: space-between;
+    margin: 125px 0px;
     text-align: center;
+    
 
 }
 
@@ -199,7 +202,7 @@ main {
     margin-top: 125px;
 }
 
-.title {
+.title1 {
     color: #272727;
     text-align: center;
     font-family: Lato;
@@ -208,7 +211,7 @@ main {
 
 }
 
-.title-description {
+.title-description1 {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -266,4 +269,44 @@ main {
     border-radius: 8px;
     background: #FFF;
     margin-right: 16px;
+}
+
+.footer {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin-top: 125px 0px 0px 0px;
+    width: 1922px;
+    height: 449px;
+    background: #111010;
+    margin: auto;
+}
+
+.footer-title {
+    color: #E55473;
+    font-size: 48px;
+    font-weight: 800;
+    padding: 125px 800px 25px 800px;
+}
+
+.shop {
+    color: #FFF;
+    font-size: 48px;
+    font-weight: 800;
+
+}
+
+.footer-description {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.copyright {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 20px;
 }
